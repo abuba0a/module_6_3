@@ -1,5 +1,4 @@
 class Horse:
-    # x_distance = 0
 
     def __init__(self):
         self.x_distance = 0
@@ -11,7 +10,6 @@ class Horse:
 
 
 class Eagle:
-    # y_distance = 0
 
     def __init__(self):
         self.y_distance = 0
