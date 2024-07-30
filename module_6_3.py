@@ -1,4 +1,5 @@
 class Horse:
+    # x_distance = 0
 
     def __init__(self):
         self.x_distance = 0
@@ -39,24 +40,23 @@ p2 = Pegasus()
 p3 = Pegasus()
 print()
 
-print(get_pos())
+print(p1.get_pos())
 p1.move(10, 15)
-print(get_pos())
+print(p1.get_pos())
 p1.move(-5, 20)
-print(get_pos())
+print(p1.get_pos())
 print()
 
-print(get_pos())
+print(p2.get_pos())
 p2.move(5, 10)
-print(get_pos())
+print(p2.get_pos())
 p2.move(-5, 20)
-print(get_pos())
+print(p2.get_pos())
 print()
-print(get_pos())
-p3.move(5, 10)
-print(get_pos())
-p3.move(-5, 20)
-print(get_pos())
+print(p3.get_pos())
+p3.move(10, 10)
+print(p3.get_pos())
+p3.move(10, 20)
+print(p3.get_pos())
 
 p1.voice()
-
